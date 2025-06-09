@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveDateTime="2025-06-09T16:00:49" version="3.40.5-Bratislava" saveUserFull="Артём Светлов" projectname="" saveUser="troll">
+<qgis saveDateTime="2025-06-09T19:24:32" version="3.40.5-Bratislava" saveUserFull="Артём Светлов" projectname="" saveUser="troll">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -35,7 +35,7 @@
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-layer source="memory?geometry=LineString&amp;crs=EPSG:4326&amp;field=name:string(0,0)&amp;uid={0e7e84c5-df3d-475a-823a-35845606d09f}" expanded="1" checked="Qt::Unchecked" id="filtered_line_077bfd0a_499e_4492_9bf6_403d926f523b" legend_split_behavior="0" providerKey="memory" name="filtered line" legend_exp="" patch_size="-1,-1">
+    <layer-tree-layer source="memory?geometry=LineString&amp;crs=EPSG:4326&amp;field=name:string(0,0)&amp;uid={49fd3a0f-19e3-4cf6-a590-cc65a8753ddd}" expanded="1" checked="Qt::Unchecked" id="filtered_line_077bfd0a_499e_4492_9bf6_403d926f523b" legend_split_behavior="0" providerKey="memory" name="filtered line" legend_exp="" patch_size="-1,-1">
       <customproperties>
         <Option type="Map">
           <Option type="invalid" name="expandedLegendNodes"/>
@@ -97,7 +97,7 @@
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer source="memory?geometry=MultiPolygon&amp;crs=EPSG:4326&amp;uid={f48a2324-dadb-40d0-8b1b-9f41968d6c3d}" expanded="1" checked="Qt::Unchecked" id="intresting_areas_6b98b159_d1f8_47c1_9997_27dc8f533087" legend_split_behavior="0" providerKey="memory" name="intresting areas" legend_exp="" patch_size="-1,-1">
+    <layer-tree-layer source="memory?geometry=MultiPolygon&amp;crs=EPSG:4326&amp;uid={30a8fb34-d0b5-4870-a3bd-eb534c23a813}" expanded="1" checked="Qt::Unchecked" id="intresting_areas_6b98b159_d1f8_47c1_9997_27dc8f533087" legend_split_behavior="0" providerKey="memory" name="intresting areas" legend_exp="" patch_size="-1,-1">
       <customproperties>
         <Option/>
       </customproperties>
@@ -154,7 +154,7 @@
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer source="./osm_export/railway-line.gpkg|layername=railway-line" expanded="1" checked="Qt::Unchecked" id="railway_line_3fdce774_3623_4ab8_a379_7e6814a982b2" legend_split_behavior="0" providerKey="ogr" name="railway-line" legend_exp="" patch_size="-1,-1">
+      <layer-tree-layer source="./osm_export/railway-line.gpkg|layername=railway-line" expanded="1" checked="Qt::Checked" id="railway_line_3fdce774_3623_4ab8_a379_7e6814a982b2" legend_split_behavior="0" providerKey="ogr" name="railway-line" legend_exp="" patch_size="-1,-1">
         <customproperties>
           <Option type="Map">
             <Option type="invalid" name="expandedLegendNodes"/>
@@ -268,27 +268,27 @@
   </layer-tree-group>
   <snapping-settings tolerance="12" maxScale="0" scaleDependencyMode="0" intersection-snapping="0" type="1" minScale="0" mode="2" enabled="1" unit="1" self-snapping="0">
     <individual-layer-settings>
-      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="rail_66ef4fef_0367_4902_b4fe_3422a6dc345d" minScale="0" enabled="0"/>
       <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="railway_station_point_1f52297c_5fab_4310_8812_36ef84e7e08e" minScale="0" enabled="0"/>
       <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="page_bounds_b58217bc_ca14_40f2_99c9_d3ff00823024" minScale="0" enabled="0"/>
-      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="New_scratch_layer_d934732b_a9ad_4f8e_a442_305dbd21ac71" minScale="0" enabled="0"/>
-      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="page_bounds_medium_zoom_6c503bd3_501e_4d3b_9b0e_14a3ceb80aac" minScale="0" enabled="0"/>
-      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="stations_badfad9c_f49c_4045_896f_a555bcaffd8a" minScale="0" enabled="0"/>
-      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="stations_e4134c18_8398_4233_98cf_57707626a957" minScale="0" enabled="0"/>
-      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="cities_fcecc28c_bf20_4577_badd_a2bad731613f" minScale="0" enabled="0"/>
-      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="New_scratch_layer_03151df5_1107_43a3_a202_1bef89d403ab" minScale="0" enabled="0"/>
-      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="depots_d6fa3f07_4fcb_48d3_b6a7_bfab2bd51eb3" minScale="0" enabled="0"/>
-      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="intresting_areas_6b98b159_d1f8_47c1_9997_27dc8f533087" minScale="0" enabled="0"/>
-      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="depots_5be2a2db_69ba_46dd_b898_363cb5613ebc" minScale="0" enabled="0"/>
-      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="railfanning_fe8b03b5_afa1_4b0b_bb28_0834f1b2fe73" minScale="0" enabled="0"/>
-      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="simplified_water_polygons_aff017fa_7bb5_419c_9460_aa30f6659e9a" minScale="0" enabled="0"/>
-      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="filtered_line_077bfd0a_499e_4492_9bf6_403d926f523b" minScale="0" enabled="0"/>
-      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="rail_d9048db4_7a36_4aec_90f7_a13c5238886a" minScale="0" enabled="0"/>
-      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="stations_fe5d96a9_4ee4_4f41_8d06_784de89ca624" minScale="0" enabled="0"/>
-      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="marked_line_99e01633_7915_426e_a5cd_be3b60048cda" minScale="0" enabled="0"/>
       <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="New_scratch_layer_45677ce6_b817_41b7_b5b7_bfc9e4c33513" minScale="0" enabled="0"/>
-      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="railway_line_3fdce774_3623_4ab8_a379_7e6814a982b2" minScale="0" enabled="0"/>
       <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="simplified_land_polygons_4b2a4722_48b3_46ea_a376_c90692d7ece0" minScale="0" enabled="0"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="stations_e4134c18_8398_4233_98cf_57707626a957" minScale="0" enabled="0"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="depots_d6fa3f07_4fcb_48d3_b6a7_bfab2bd51eb3" minScale="0" enabled="0"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="railway_line_3fdce774_3623_4ab8_a379_7e6814a982b2" minScale="0" enabled="0"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="marked_line_99e01633_7915_426e_a5cd_be3b60048cda" minScale="0" enabled="0"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="page_bounds_medium_zoom_6c503bd3_501e_4d3b_9b0e_14a3ceb80aac" minScale="0" enabled="0"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="New_scratch_layer_03151df5_1107_43a3_a202_1bef89d403ab" minScale="0" enabled="0"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="filtered_line_077bfd0a_499e_4492_9bf6_403d926f523b" minScale="0" enabled="0"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="simplified_water_polygons_aff017fa_7bb5_419c_9460_aa30f6659e9a" minScale="0" enabled="0"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="stations_fe5d96a9_4ee4_4f41_8d06_784de89ca624" minScale="0" enabled="0"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="rail_d9048db4_7a36_4aec_90f7_a13c5238886a" minScale="0" enabled="0"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="rail_66ef4fef_0367_4902_b4fe_3422a6dc345d" minScale="0" enabled="0"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="stations_badfad9c_f49c_4045_896f_a555bcaffd8a" minScale="0" enabled="0"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="depots_5be2a2db_69ba_46dd_b898_363cb5613ebc" minScale="0" enabled="0"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="New_scratch_layer_d934732b_a9ad_4f8e_a442_305dbd21ac71" minScale="0" enabled="0"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="railfanning_fe8b03b5_afa1_4b0b_bb28_0834f1b2fe73" minScale="0" enabled="0"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="cities_fcecc28c_bf20_4577_badd_a2bad731613f" minScale="0" enabled="0"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="intresting_areas_6b98b159_d1f8_47c1_9997_27dc8f533087" minScale="0" enabled="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -296,10 +296,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>15683863.16951506584882736</xmin>
-      <ymin>5339202.97284542582929134</ymin>
-      <xmax>15996757.24335616081953049</xmax>
-      <ymax>5527975.49024044536054134</ymax>
+      <xmin>15873487.52348383516073227</xmin>
+      <ymin>5311890.68375511188060045</ymin>
+      <xmax>15920788.50860651582479477</xmax>
+      <ymax>5340427.90060729999095201</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -410,9 +410,9 @@
           <legendlayerfile visible="0" isInOverview="0" layerid="railway_station_point_1f52297c_5fab_4310_8812_36ef84e7e08e"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" checked="Qt::Unchecked" showFeatureCount="0" name="railway-line" open="true">
+      <legendlayer drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0" name="railway-line" open="true">
         <filegroup hidden="false" open="true">
-          <legendlayerfile visible="0" isInOverview="0" layerid="railway_line_3fdce774_3623_4ab8_a379_7e6814a982b2"/>
+          <legendlayerfile visible="1" isInOverview="0" layerid="railway_line_3fdce774_3623_4ab8_a379_7e6814a982b2"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -13749,18 +13749,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" readOnly="0" type="vector" simplifyAlgorithm="0" geometry="Line" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" legendPlaceholderImage="" refreshOnNotifyMessage="" autoRefreshTime="0" minScale="100000000" styleCategories="AllStyleCategories" simplifyLocal="1" refreshOnNotifyEnabled="0" simplifyMaxScale="1" maxScale="0" wkbType="MultiLineString" simplifyDrawingHints="1" labelsEnabled="1" autoRefreshMode="Disabled">
-      <extent>
-        <xmin>131.3964233398440058</xmin>
-        <ymin>33.42495727539059658</ymin>
-        <xmax>141.44682312011698855</xmax>
-        <ymax>40.82823944091799717</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>131.3964233398440058</xmin>
-        <ymin>33.42495727539059658</ymin>
-        <xmax>141.44682312011698855</xmax>
-        <ymax>40.82823944091799717</ymax>
-      </wgs84extent>
       <id>rail_66ef4fef_0367_4902_b4fe_3422a6dc345d</id>
       <datasource>./rail.gpkg|layername=rail</datasource>
       <keywordList>
@@ -15398,6 +15386,82 @@ def my_form_open(dialog, layer, feature):
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
+            <layer class="SimpleLine" locked="0" id="{99c9eaa6-ac95-4f0c-a00f-ac1be3b6a641}" enabled="1" pass="0">
+              <Option type="Map">
+                <Option value="0" type="QString" name="align_dash_pattern"/>
+                <Option value="square" type="QString" name="capstyle"/>
+                <Option value="5;2" type="QString" name="customdash"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="customdash_map_unit_scale"/>
+                <Option value="MM" type="QString" name="customdash_unit"/>
+                <Option value="0" type="QString" name="dash_pattern_offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="dash_pattern_offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="dash_pattern_offset_unit"/>
+                <Option value="0" type="QString" name="draw_inside_polygon"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="70,70,70,255,hsv:0,0,0.27344167238879991,1" type="QString" name="line_color"/>
+                <Option value="solid" type="QString" name="line_style"/>
+                <Option value="1.46" type="QString" name="line_width"/>
+                <Option value="MM" type="QString" name="line_width_unit"/>
+                <Option value="0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="0" type="QString" name="ring_filter"/>
+                <Option value="0" type="QString" name="trim_distance_end"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_end_map_unit_scale"/>
+                <Option value="MM" type="QString" name="trim_distance_end_unit"/>
+                <Option value="0" type="QString" name="trim_distance_start"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_start_map_unit_scale"/>
+                <Option value="MM" type="QString" name="trim_distance_start_unit"/>
+                <Option value="0" type="QString" name="tweak_dash_pattern_on_corners"/>
+                <Option value="0" type="QString" name="use_custom_dash"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="width_map_unit_scale"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+            <layer class="SimpleLine" locked="0" id="{45e4f234-f48f-4df8-83d0-c49e47543e25}" enabled="1" pass="0">
+              <Option type="Map">
+                <Option value="0" type="QString" name="align_dash_pattern"/>
+                <Option value="square" type="QString" name="capstyle"/>
+                <Option value="5;2" type="QString" name="customdash"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="customdash_map_unit_scale"/>
+                <Option value="MM" type="QString" name="customdash_unit"/>
+                <Option value="0" type="QString" name="dash_pattern_offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="dash_pattern_offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="dash_pattern_offset_unit"/>
+                <Option value="0" type="QString" name="draw_inside_polygon"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="255,255,255,255,hsv:0,0,1,1" type="QString" name="line_color"/>
+                <Option value="solid" type="QString" name="line_style"/>
+                <Option value="0.66" type="QString" name="line_width"/>
+                <Option value="MM" type="QString" name="line_width_unit"/>
+                <Option value="0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="0" type="QString" name="ring_filter"/>
+                <Option value="0" type="QString" name="trim_distance_end"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_end_map_unit_scale"/>
+                <Option value="MM" type="QString" name="trim_distance_end_unit"/>
+                <Option value="0" type="QString" name="trim_distance_start"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="trim_distance_start_map_unit_scale"/>
+                <Option value="MM" type="QString" name="trim_distance_start_unit"/>
+                <Option value="0" type="QString" name="tweak_dash_pattern_on_corners"/>
+                <Option value="0" type="QString" name="use_custom_dash"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="width_map_unit_scale"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
             <layer class="SimpleLine" locked="0" id="{4a3e5939-7c9b-4464-8846-4a0981def6bd}" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="align_dash_pattern"/>
@@ -15411,7 +15475,7 @@ def my_form_open(dialog, layer, feature):
                 <Option value="0" type="QString" name="draw_inside_polygon"/>
                 <Option value="bevel" type="QString" name="joinstyle"/>
                 <Option value="127,127,127,157,rgb:0.49803921568627452,0.49803921568627452,0.49803921568627452,0.61568627450980395" type="QString" name="line_color"/>
-                <Option value="solid" type="QString" name="line_style"/>
+                <Option value="dot" type="QString" name="line_style"/>
                 <Option value="0.86" type="QString" name="line_width"/>
                 <Option value="MM" type="QString" name="line_width_unit"/>
                 <Option value="0" type="QString" name="offset"/>
@@ -18089,18 +18153,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" readOnly="0" type="vector" simplifyAlgorithm="0" geometry="Line" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="2" legendPlaceholderImage="" refreshOnNotifyMessage="" autoRefreshTime="0" minScale="100000000" styleCategories="AllStyleCategories" simplifyLocal="1" refreshOnNotifyEnabled="0" simplifyMaxScale="1" maxScale="0" wkbType="LineString" simplifyDrawingHints="3" labelsEnabled="1" autoRefreshMode="Disabled">
-      <extent>
-        <xmin>127.6521301269529971</xmin>
-        <ymin>26.15495681762689983</ymin>
-        <xmax>145.59802246093698841</xmax>
-        <ymax>45.41748428344730115</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>127.6521301269529971</xmin>
-        <ymin>26.15495681762689983</ymin>
-        <xmax>145.59802246093698841</xmax>
-        <ymax>45.41748428344730115</ymax>
-      </wgs84extent>
       <id>railway_line_3fdce774_3623_4ab8_a379_7e6814a982b2</id>
       <datasource>./osm_export/railway-line.gpkg|layername=railway-line</datasource>
       <keywordList>
@@ -28690,7 +28742,7 @@ def my_form_open(dialog, layer, feature):
         </LayoutItem>
         <GuideCollection visible="1"/>
       </PageCollection>
-      <LayoutItem size="62.7466,7.16174,mm" uuid="{dc818e8c-ac05-4294-9038-9ac601fe6314}" htmlState="0" frameJoinStyle="miter" type="65641" itemRotation="0" excludeFromExports="0" opacity="1" templateUuid="{dc818e8c-ac05-4294-9038-9ac601fe6314}" zValue="3" marginX="0" position="122.197,177.782,mm" positionOnPage="122.197,177.782,mm" labelText="Openstreetmap data" marginY="0" positionLock="false" background="false" blendMode="0" referencePoint="0" outlineWidthM="0.3,mm" id="" frame="false" groupUuid="" halign="2" valign="64" visibility="1">
+      <LayoutItem size="56.3744,12.443,mm" uuid="{6cc507f1-c615-4099-ba2b-5cc930b0a337}" htmlState="0" frameJoinStyle="miter" type="65641" itemRotation="0" excludeFromExports="0" opacity="1" templateUuid="{6cc507f1-c615-4099-ba2b-5cc930b0a337}" zValue="3" marginX="0" position="0,171.561,mm" positionOnPage="0,171.561,mm" labelText="1 square = 1 km" marginY="0" positionLock="false" background="false" blendMode="0" referencePoint="0" outlineWidthM="0.3,mm" id="" frame="false" groupUuid="" halign="1" valign="64" visibility="1">
         <FrameColor blue="0" red="0" green="0" alpha="255"/>
         <BackgroundColor blue="255" red="255" green="255" alpha="255"/>
         <LayoutObject>
@@ -28752,7 +28804,7 @@ def my_form_open(dialog, layer, feature):
           </dd_properties>
         </text-style>
       </LayoutItem>
-      <LayoutItem size="56.3744,12.443,mm" uuid="{6cc507f1-c615-4099-ba2b-5cc930b0a337}" htmlState="0" frameJoinStyle="miter" type="65641" itemRotation="0" excludeFromExports="0" opacity="1" templateUuid="{6cc507f1-c615-4099-ba2b-5cc930b0a337}" zValue="3" marginX="0" position="0,171.561,mm" positionOnPage="0,171.561,mm" labelText="1 square = 1 km" marginY="0" positionLock="false" background="false" blendMode="0" referencePoint="0" outlineWidthM="0.3,mm" id="" frame="false" groupUuid="" halign="1" valign="64" visibility="1">
+      <LayoutItem size="62.7466,7.16174,mm" uuid="{dc818e8c-ac05-4294-9038-9ac601fe6314}" htmlState="0" frameJoinStyle="miter" type="65641" itemRotation="0" excludeFromExports="0" opacity="1" templateUuid="{dc818e8c-ac05-4294-9038-9ac601fe6314}" zValue="3" marginX="0" position="122.197,177.782,mm" positionOnPage="122.197,177.782,mm" labelText="Openstreetmap data" marginY="0" positionLock="false" background="false" blendMode="0" referencePoint="0" outlineWidthM="0.3,mm" id="" frame="false" groupUuid="" halign="2" valign="64" visibility="1">
         <FrameColor blue="0" red="0" green="0" alpha="255"/>
         <BackgroundColor blue="255" red="255" green="255" alpha="255"/>
         <LayoutObject>
@@ -39790,7 +39842,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <LayerSet>
-          <Layer source="memory?geometry=LineString&amp;crs=EPSG:4326&amp;field=name:string(0,0)&amp;uid={0e7e84c5-df3d-475a-823a-35845606d09f}" name="filtered line" provider="memory">filtered_line_077bfd0a_499e_4492_9bf6_403d926f523b</Layer>
+          <Layer source="memory?geometry=LineString&amp;crs=EPSG:4326&amp;field=name:string(0,0)&amp;uid={49fd3a0f-19e3-4cf6-a590-cc65a8753ddd}" name="filtered line" provider="memory">filtered_line_077bfd0a_499e_4492_9bf6_403d926f523b</Layer>
           <Layer source="C:/trolleway/wikipedia-rail-maps-japan/basemap/cities.gpkg|layername=cities" name="cities" provider="ogr">cities_fcecc28c_bf20_4577_badd_a2bad731613f</Layer>
           <Layer source="C:/trolleway/wikipedia-rail-maps-japan/depots.gpkg|layername=depots" name="depots" provider="ogr">depots_5be2a2db_69ba_46dd_b898_363cb5613ebc</Layer>
           <Layer source="C:/trolleway/wikipedia-rail-maps-japan/marked_line.gpkg|layername=marked_line" name="marked_line" provider="ogr">marked_line_99e01633_7915_426e_a5cd_be3b60048cda</Layer>
@@ -40205,7 +40257,7 @@ def my_form_open(dialog, layer, feature):
   <Sensors/>
   <ProjectViewSettings UseProjectScales="0" rotation="0">
     <Scales/>
-    <DefaultViewExtent ymin="5327134.19182165432721376" xmax="15996757.24335616081953049" xmin="15683863.16951506584882736" ymax="5540044.27126421686261892">
+    <DefaultViewExtent ymin="5310066.21573435701429844" xmax="15920788.50860651582479477" xmin="15873487.52348383516073227" ymax="5342252.36862805485725403">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
         <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
@@ -40219,7 +40271,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </DefaultViewExtent>
   </ProjectViewSettings>
-  <ProjectStyleSettings colorModel="Rgb" RandomizeDefaultSymbolColor="1" DefaultSymbolOpacity="1" projectStyleId="attachment:///DnpxIz_styles.db" iccProfileId="attachment:///">
+  <ProjectStyleSettings colorModel="Rgb" RandomizeDefaultSymbolColor="1" DefaultSymbolOpacity="1" projectStyleId="attachment:///DnpxIz_styles.db" iccProfileId="attachment:///QGIS3-aPzsQD">
     <databases/>
   </ProjectStyleSettings>
   <ProjectTimeSettings frameRate="1" totalMovieFrames="100" timeStepUnit="y" timeStep="1" cumulativeTemporalRange="0"/>
